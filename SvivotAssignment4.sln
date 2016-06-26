@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "SvivotAssignment4", "SvivotAssignment4\SvivotAssignment4.ccproj", "{15825436-B40E-4C09-B9E7-B8A214A60990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{6AB5A1A7-2F6D-4FDB-B5F0-AE904E152A54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieStore", "..\..\..\..\Desktop\לימודים\שנה ג\סביבות פיתוח באינטרנט\עבודות\עבודה 3\WebAssignment3\MovieStore\MovieStore.csproj", "{EA0806A9-17BB-4D7A-8F73-5F568696FD24}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6AB5A1A7-2F6D-4FDB-B5F0-AE904E152A54} = {6AB5A1A7-2F6D-4FDB-B5F0-AE904E152A54}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part2", "Part2", "{7EEC31F9-42B9-44C4-B0D8-E81B41BB80F0}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "ApiAssignment", "ApiAssignment\ApiAssignment.ccproj", "{4BB5E96C-EB39-4FAE-85C6-8F1AC8B46ACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole2", "WebRole2\WebRole2.csproj", "{7ED63236-3970-40CD-B0D8-CD07286AA1C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15825436-B40E-4C09-B9E7-B8A214A60990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15825436-B40E-4C09-B9E7-B8A214A60990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15825436-B40E-4C09-B9E7-B8A214A60990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15825436-B40E-4C09-B9E7-B8A214A60990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB5A1A7-2F6D-4FDB-B5F0-AE904E152A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB5A1A7-2F6D-4FDB-B5F0-AE904E152A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB5A1A7-2F6D-4FDB-B5F0-AE904E152A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB5A1A7-2F6D-4FDB-B5F0-AE904E152A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0806A9-17BB-4D7A-8F73-5F568696FD24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0806A9-17BB-4D7A-8F73-5F568696FD24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0806A9-17BB-4D7A-8F73-5F568696FD24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0806A9-17BB-4D7A-8F73-5F568696FD24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB5E96C-EB39-4FAE-85C6-8F1AC8B46ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB5E96C-EB39-4FAE-85C6-8F1AC8B46ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB5E96C-EB39-4FAE-85C6-8F1AC8B46ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB5E96C-EB39-4FAE-85C6-8F1AC8B46ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED63236-3970-40CD-B0D8-CD07286AA1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED63236-3970-40CD-B0D8-CD07286AA1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED63236-3970-40CD-B0D8-CD07286AA1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED63236-3970-40CD-B0D8-CD07286AA1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BB5E96C-EB39-4FAE-85C6-8F1AC8B46ACD} = {7EEC31F9-42B9-44C4-B0D8-E81B41BB80F0}
+		{7ED63236-3970-40CD-B0D8-CD07286AA1C0} = {7EEC31F9-42B9-44C4-B0D8-E81B41BB80F0}
+	EndGlobalSection
+EndGlobal
